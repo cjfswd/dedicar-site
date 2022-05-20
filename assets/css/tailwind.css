@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "IBM Plex Sans", sans-serif
+    }
+  }
+
+@layer utilities {
+    .linkStyle:hover {
+        color: #f2f200 !important;
+    }
+
+    .linkIntern{
+        @apply tw-underline;
+      }
+}

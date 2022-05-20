@@ -1,0 +1,43 @@
+{
+  "name": "example-composition-api-basic",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@mdi/font": "^6.6.96",
+    "@nuxt/content": "^1.15.1",
+    "@nuxtjs/composition-api": "^0.32.0",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@pinia/nuxt": "^0.1.8",
+    "@vue/composition-api": "latest",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.8.3",
+    "git-commit-msg-linter": "^4.1.2",
+    "github-markdown-css": "^5.1.0",
+    "nuxt": "^2.14.12",
+    "pinia": "^2.0.13",
+    "vue-100vh": "^0.1.1",
+    "vue-screen": "^1.5.3",
+    "vue-scrollto": "^2.20.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@nuxt/postcss8": "^1.1.3",
+    "@nuxt/types": "latest",
+    "@nuxt/typescript-build": "latest",
+    "@nuxtjs/svg": "^0.1.12",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "postcss": "^8.4.4",
+    "sass": "^1.49.11",
+    "sass-loader": "^10.1.1",
+    "@vue/runtime-dom": "latest"
+  }
+}
